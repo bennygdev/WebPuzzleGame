@@ -11,3 +11,4 @@ A simple web puzzle game written in vanilla javascript. Used a CSS Framework tha
 3. JavaScript
 4. Bulma
 # Preview
+![image](https://user-images.githubusercontent.com/39120147/209567230-5a96356c-814b-488b-a6ae-b7ee34e9998d.png)
