@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../../../css/hardstyle.css">
+    <title>Puzzle game</title>
+</head>
+<body>
+    <!-- Title -->
+    <section class="section">
+        <div class="container">
+            <h1 class="title is-2 has-text-centered">Hard difficulty (Colosseum)</h1>
+            <p class="is-size-5 has-text-centered">Solve this 7x7 Colosseum puzzle in the least amount of turns possible!</p>
+        </div>
+        <div>
+            <button class="button is-danger" id="resetbutton">Reset</button>
+            <a href="../../../index.html" class="button is-warning">Back to home</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div id="board"></div>
+            <h2 class="is-size-3">Turns: <span id="turns">0</span></h2>
+            <div id="pieces"></div>
+            <p>Photo by <a href="https://unsplash.com/@davidkhlr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David Köhler</a> on <a href="https://unsplash.com/photos/VFRTXGw1VjU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+            <script src="../../../js/harddiff.js"></script>
+        </div>
+    </section>
+</body>
+</html>
